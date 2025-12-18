@@ -1,16 +1,27 @@
+<<<<<<< HEAD
 # 🚀 AI Dev Team - Équipe de Développement IA
+=======
+# 🚀 AI Dev Team
+>>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
 
 > Projet IA Générative - Agents Intelligents, Raisonnement Avancé & Streamlit
 
 Une application Streamlit qui simule une équipe complète de développeurs IA capables de raisonner, coder, tester et valider du code Python de manière autonome.
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
 ## 📋 Description du Projet
 
 **AI Dev Team** est une application multi-agents qui transforme une description textuelle en un projet Python complet, testé et validé. L'équipe est composée de 4 agents spécialisés, chacun utilisant une technique de raisonnement avancée :
 
+<<<<<<< HEAD
 ### 🤖 L'Équipe
+=======
+###  L'Équipe
+>>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
 
 | Agent | Rôle | Technique de Raisonnement |
 |-------|------|---------------------------|
@@ -18,6 +29,7 @@ Une application Streamlit qui simule une équipe complète de développeurs IA c
 | **💻 Lead Developer** | Génère le code Python | **ReAct (Reason + Act)** |
 | **🐛 QA Engineer** | Critique le code et génère les tests | **Self-Correction** |
 | **✅ Tech Lead** | Valide et décide des actions | **Tree of Thoughts (ToT)** |
+<<<<<<< HEAD
 
 ---
 
@@ -67,30 +79,53 @@ User Request + PDFs
 
 ### Prérequis
 
-- Python 3.9+
-- Compte Groq (gratuit) : [https://console.groq.com](https://console.groq.com)
+- Python 3.8 ou supérieur
+- pip (gestionnaire de packages Python)
+- Un compte Groq (gratuit) pour l'API
 
-### Étapes
-
+### Étape 1 : Cloner le Repository
 ```bash
-# 1. Cloner le repository
-git clone <votre-repo>
-cd ai_dev_team
+git clone https://github.com/ArthurDelf/GenerativeAI_AgentsDevTeams.git
+cd GenerativeAI_AgentsDevTeams
+```
 
-# 2. Installer les dépendances
+### Étape 2 : Installer les Dépendances
+```bash
 pip install -r requirements.txt
+```
 
-# 3. Configurer l'API Key
-cp .env.example .env
-# Éditer .env et ajouter votre GROQ_API_KEY
+**Liste des packages installés :**
+- `streamlit` - Interface web
+- `langchain` - Framework pour LLM
+- `langchain-groq` - Intégration Groq
+- `langchain-community` - Outils communautaires
+- `python-dotenv` - Gestion variables d'environnement
+- `pypdf` - Traitement PDF (optionnel)
+- `pydantic` - Validation données
+- `tiktoken` - Tokenization
 
-# 4. Lancer l'application
+### Étape 3 : Obtenir une Clé API Groq (Gratuit)
+
+1. Créez un compte sur [Groq Console](https://console.groq.com)
+2. Allez dans **API Keys**
+3. Cliquez sur **Create API Key**
+4. Copiez votre clé (format : `gsk_...`)
+
+### Étape 4 : Lancer l'Application
+```bash
 streamlit run app.py
 ```
 
-L'application s'ouvrira automatiquement sur `http://localhost:8501`
+L'application s'ouvrira automatiquement dans votre navigateur à l'adresse `http://localhost:8501`
 
----
+### Étape 5 : Configuration
+
+Dans l'interface Streamlit :
+1. Dans la **sidebar** (barre latérale gauche)
+2. Collez votre **Groq API Key** dans le champ prévu
+3. Vérifiez que le modèle est : `llama-3.1-70b-versatile`
+4. Vous êtes prêt !
+
 
 ## 📖 Utilisation
 
@@ -245,27 +280,10 @@ ai_dev_team/
 
 - **Arthur** - Développeur principal
 
----
 
-## 📝 Licence
 
-Ce projet est réalisé dans un cadre académique.
 
----
 
-## 🙏 Remerciements
 
-- **Anthropic** pour Claude (inspiration du naming)
-- **Groq** pour l'API gratuite
-- **LangChain** pour le framework
-- **Streamlit** pour l'interface
-
----
-
-<div align="center">
-
-**Fait avec ❤️ et beaucoup de prompts**
-
-[⭐ Star ce projet](https://github.com/votre-repo) | [🐛 Reporter un bug](https://github.com/votre-repo/issues)
-
-</div>
+=======
+>>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
