@@ -9,7 +9,7 @@ Une application Streamlit qui simule une équipe complète de développeurs IA c
 
 ---
 
-=======
+
 
 ## 📋 Description du Projet
 
@@ -276,12 +276,12 @@ ai_dev_team/
 
 ## 👥 Contributeurs
 
-- **Arthur** - Développeur principal
+- **Arthur Delfosse** - Développeur principal
 
 
 
 
 
 
-=======
+
 
