@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit==1.32.0
+python-dotenv==1.0.1
+
+# LLM & Agents
+langchain==0.2.0
+langchain-groq==0.1.5
+langchain-community==0.2.0
+
+# PDF Processing
+pypdf==4.1.0
+
+# Embeddings
+sentence-transformers==2.6.1
+
+# Utilities
+pydantic==2.6.4
+tiktoken==0.6.0
+numpy==1.24.3
