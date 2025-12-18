@@ -1,27 +1,25 @@
-<<<<<<< HEAD
-# 🚀 AI Dev Team - Équipe de Développement IA
-=======
+
 # 🚀 AI Dev Team
->>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
+
 
 > Projet IA Générative - Agents Intelligents, Raisonnement Avancé & Streamlit
 
 Une application Streamlit qui simule une équipe complète de développeurs IA capables de raisonner, coder, tester et valider du code Python de manière autonome.
 
-<<<<<<< HEAD
+
 ---
 
 =======
->>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
+
 ## 📋 Description du Projet
 
 **AI Dev Team** est une application multi-agents qui transforme une description textuelle en un projet Python complet, testé et validé. L'équipe est composée de 4 agents spécialisés, chacun utilisant une technique de raisonnement avancée :
 
-<<<<<<< HEAD
+
 ### 🤖 L'Équipe
 =======
 ###  L'Équipe
->>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
+
 
 | Agent | Rôle | Technique de Raisonnement |
 |-------|------|---------------------------|
@@ -286,4 +284,4 @@ ai_dev_team/
 
 
 =======
->>>>>>> c1f4f52714d77b2ede07705a667debf577c5354c
+
